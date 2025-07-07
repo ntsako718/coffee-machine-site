@@ -1,12 +1,44 @@
-# React + Vite
+# Coffee Machine Services – React Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive website built for a real-world client offering expert repair, maintenance, and emergency services for coffee machines across Johannesburg.
 
-Currently, two official plugins are available:
+## 🔧 Project Summary
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Client**: Owen Chare – Coffee Machine Specialist
+- **Purpose**: Promote and simplify access to repair and service offerings.
+- **Stack**: React, Vite, Tailwind CSS, React Router, Lucide Icons
+- **Hosting**: [Netlify](https://netlify.com)
+- **Live Site**: [View Website](https://your-netlify-url.netlify.app)
 
-## Expanding the ESLint configuration
+## 💡 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive layout (mobile-first)
+- Navigation bar with active link styling
+- Modal contact form (Book Service)
+- `mailto:` integration for direct contact
+- Services section with icons and features
+- About & Contact pages
+- Smooth client-side routing with React Router
+
+## 🧠 What I Learned
+
+- Project structure with React + Vite
+- Tailwind CSS utilities for rapid styling
+- State management for modal toggle
+- React Router for SPA navigation
+- `mailto:` integration for frontend-only contact forms
+
+## 🧪 Challenges & Fixes
+
+- **Form field handling**: Needed to extract form input values properly → Added `name` attributes.
+- **Modal accessibility**: Ensured keyboard and button access to open/close modal.
+- **No backend**: Solved contact form by linking to client’s email via `mailto:`.
+
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/ntsako718/coffee-machine-site.git
+cd coffee-machine-site
+npm install
+npm run dev
